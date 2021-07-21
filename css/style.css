@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* section one styles */
+
+/* first column */
+.tainer{
+    background-color: #2D25A0;
+    height: 610px;
+    display: flex;
+}
+
+.first-column{
+    position: absolute;
+    left: 156px;
+    top: 207px;
+}
+
+.copa-tittle{
+    
+    margin-bottom: 27px;
+    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: bold; 
+
+}
+
+.Live{
+    text-decoration: none;
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    font-size: 19px;
+    color: white;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    border-radius: 3px;
+}
+
+/* second column */
+
+.kick{
+    position: absolute;
+    width: 388px;
+    height: 428px;
+    left: 827px;
+    top: 135px;
+}
+
+.kicker{
+    position: relative;
+    top: 135px;
+    left: 780px;
+}
