@@ -12,13 +12,14 @@ body{
     background-color: #2D25A0;
     height: 610px;
     display: flex;
+
 }
 
 .first-column{
     position: absolute;
     left: 156px;
     top: 207px;
-}
+ }
 
 .copa-tittle{
     
@@ -47,8 +48,10 @@ body{
 }
 
 /* second column */
+/* all-kick */
 
-.kick{
+
+.bg{
     position: absolute;
     width: 388px;
     height: 428px;
@@ -60,4 +63,22 @@ body{
     position: relative;
     top: 135px;
     left: 780px;
+    transition: transform 0.1s ease-in ;
+  
+ 
+}
+
+.ball{
+    position: relative;
+    top: -300px;
+    left: 740px;
+    transition: transform 0.3s ease-out 0.010s;
+}
+
+.tainer:hover .ball{
+    transform: translate(-600px, -210px);
+}
+
+ .tainer:hover .kicker{
+    transform: rotate(35deg);
 }
