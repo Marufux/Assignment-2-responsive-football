@@ -1,9 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,100;1,300&display=swap');
 
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+
 
 /* section one styles */
 
@@ -11,7 +13,9 @@ body{
 .tainer{
     background-color: #2D25A0;
     height: 610px;
+    width: 1332px;
     display: flex;
+    margin-bottom: 70px;
 
 }
 
@@ -35,16 +39,22 @@ body{
     width: 168px;
     height: 44px;
     background-color: #E02C6D;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-left: 30px;
-    padding-right: 35px;
-    padding-bottom: 10px;
+    padding-right: 10px;
+    
     font-size: 19px;
     color: white;
     font-weight: 500;
     font-style: normal;
     line-height: 24px;
     border-radius: 3px;
+    transition: transform .2s;
+    display: inline-block;
+}
+
+.Live:hover{
+    transform: scale(1.2);
 }
 
 /* second column */
@@ -72,13 +82,266 @@ body{
     position: relative;
     top: -300px;
     left: 740px;
-    transition: transform 0.3s ease-out 0.010s;
+    transition: transform 0.3s ease-out 0.07s;
 }
 
 .tainer:hover .ball{
-    transform: translate(-600px, -210px);
+    transform: translate(-500px, -210px);
 }
 
  .tainer:hover .kicker{
     transform: rotate(35deg);
 }
+
+/* section one styles ends */
+
+/* section two styles starts */
+
+
+
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 100px;
+    margin-bottom: 70px;
+    
+}
+
+.all-players img{
+    width: 300px;
+    height: 256px;
+
+}
+
+/* individual players */
+
+
+.pdetails{
+    
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 300px;
+    
+}
+
+/* neymar */
+
+.njr{
+    
+    width: 350px;
+    height: 430px;
+    margin-bottom: 30px;
+    text-align: left;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    font-size:small;
+}
+
+.njr p{
+    color: #6C6C6C;
+}
+
+/* messi */
+
+.lm10{
+    width: 350px;
+    height: 430px;
+    margin-bottom: 30px;
+    text-align: left;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    font-size:small;
+}
+
+.lm10 p{
+    color: #6C6C6C;
+}
+
+/* Ronaldo the goat */
+.cr7{
+    width: 350px;
+    height: 430px;
+    margin-bottom: 30px;
+    text-align: left;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    font-size:small;
+}
+
+.cr7 p{
+    color: #6C6C6C;
+}
+
+/* dybala */
+.pd10{
+    width: 350px;
+    height: 430px;
+    margin-bottom: 30px;
+    text-align: left;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    font-size:small;
+}
+
+.pd10 p{
+    color: #6C6C6C;
+}
+
+/* ozil */
+.mesut{
+    width: 350px;
+    height: 430px;
+    margin-bottom: 30px;
+    text-align: left;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    font-size:small;
+}
+
+.mesut p{
+    color: #6C6C6C;
+}
+
+/* icardi */
+.mi9{
+    width: 350px;
+    height: 430px;
+    margin-bottom: 30px;
+    text-align: left;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    font-size:small;
+}
+
+.mi9 p{
+    color: #6C6C6C;
+}
+
+/* di maria */
+
+.dm7{
+
+    width: 350px;
+    height: 430px;
+    margin-bottom: 30px;
+    text-align: left;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    font-size:small;
+
+}
+
+.dm7 p{
+    color: #6C6C6C;
+}
+
+
+/* M-Bappe */
+
+.km10{
+    width: 350px;
+    height: 430px;
+    margin-bottom: 30px;
+    text-align: left;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    font-size:small;
+}
+
+.km10 p{
+    color: #6C6C6C;;
+}
+
+
+
+
+/* salah */
+
+.ms10{
+    width: 350px;
+    height: 430px;
+    margin-bottom: 30px;
+    text-align: left;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    font-size:small;
+}
+
+.ms10 p{
+    color: #6C6C6C;
+}
+
+/* harry kane */
+
+.hk9{
+    width: 350px;
+    height: 430px;
+    margin-bottom: 30px;
+    text-align: left;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    font-size:small;
+}
+
+.hk9 p{
+    color: #6C6C6C;
+}
+
+/* de bruyne */
+
+.kbd{
+    width: 350px;
+    height: 430px;
+    margin-bottom: 30px;
+    text-align: left;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    font-size:small;
+}
+
+.kbd p{
+    color: #6C6C6C;
+}
+
+/* philippe coutinho */
+
+.pc7{
+    width: 350px;
+    height: 430px;
+    margin-bottom: 30px;
+    text-align: left;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    font-size:small;
+}
+
+.pc7 p{
+    color: #6C6C6C;
+}
+
+/* third section styles */
+
+.third-section{
+    display: flex;
+
+}
+
+.firstof3rd-column{
+    position: relative;
+    margin-left: 100px;
+}
+
+.hightlights-tittles{
+    color: rgb(1, 1, 39);
+    font-size: 23px;
+}
+
+.highlights-details{
+    width: 400px;
+    margin-bottom: 40px;
+
+}
+
+.highlight-img img{
+    width: 477px;
+    height: 350px;
+    margin-left: 250px;
+    margin-top: 20px;
+    transition: transform 0.3s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgba(71, 63, 109, 0.438);
+}
+
+.highlight-img img:hover{
+    transform: scale(1.25);
+}
+
