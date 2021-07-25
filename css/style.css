@@ -36,7 +36,7 @@ body{
 
 .Live{
     text-decoration: none;
-    width: 168px;
+    width: 150px;
     height: 44px;
     background-color: #E02C6D;
     padding-top: 20px;
@@ -47,14 +47,36 @@ body{
     color: white;
     font-weight: 500;
     font-style: normal;
-    line-height: 24px;
-    border-radius: 3px;
     transition: transform .2s;
     display: inline-block;
+
+    /* animation of live */
+
+    animation-name: livebox;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    position: relative;
 }
 
 .Live:hover{
     transform: scale(1.2);
+}
+
+
+@keyframes livebox{
+    from{
+        background-color: #E02C6D ;
+    }
+
+    50%{
+        background-color: #c22fa2;
+    }
+
+    to{
+        background-color: #b518ca ;
+    }
 }
 
 /* second column */
@@ -72,7 +94,7 @@ body{
 .kicker{
     position: relative;
     top: 135px;
-    left: 780px;
+    left: 700px;
     transition: transform 0.1s ease-in ;
   
  
@@ -81,9 +103,10 @@ body{
 .ball{
     position: relative;
     top: -300px;
-    left: 740px;
-    transition: transform 0.3s ease-out 0.07s;
+    left: 660px;
+    transition: transform 0.3s ease-out 0.09s;
 }
+
 
 .tainer:hover .ball{
     transform: translate(-500px, -210px);
@@ -312,6 +335,7 @@ body{
 
 .third-section{
     display: flex;
+    margin-bottom: 200px;
 
 }
 
@@ -344,4 +368,43 @@ body{
 .highlight-img img:hover{
     transform: scale(1.25);
 }
+
+/* finishing part */
+
+
+.finishing-part{
+    
+}
+
+.logo img{
+    width: 395.87px;
+    height: 101px;
+    margin-left: 470px;
+}
+
+.social-icons{
+    margin-left: 609px;
+}
+
+.fab{
+    color: darkgray;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.fas{
+    color:darkgray;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.copyright p{
+    font-weight: 500;
+    margin-left: 590px;
+}
+
+/* responsive section */
+/* Media Queries */
+
+/* mobile devices */
 
